@@ -1,0 +1,60 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  height: 100%;
+}
+
+.rightArrowStyles {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 32px;
+  font-size: 45px;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.leftArrowStyles {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 32px;
+  font-size: 45px;
+  color: #fff;
+  z-index: 1;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: 30rem;
+  border-radius: 10px;
+}
+
+.dotscontainer {
+  color: brown;
+  display: flex;
+  justify-content: center;
+}
+
+.dots {
+  margin: 0 3px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.active {
+  color: blue;
+}
+
+@media only screen and (max-width: 768px) {
+  img {
+    width: 90%;
+    height: 20rem;
+  }
+}
